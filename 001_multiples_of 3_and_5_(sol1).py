@@ -20,6 +20,6 @@ import time
 
 start_time = time.time()
 
-print(sum(a for a in range(1000) if a % 3 == 0 or a % 5 == 0), '- sum of numbers up to 1000, multiples of 3 and 5 / сумма чисел до 1000, кратных 3 и 5')
+print(sum(a for a in range(1000) if a % 3 == 0 or a % 5 == 0))
 
 print("--- %s seconds ---" % (time.time() - start_time))
